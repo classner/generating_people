@@ -1,0 +1,6 @@
+*.pyc
+generation/data
+generation/experiments/states
+.#*
+.*_cache
+generation/experiments/features

@@ -1,0 +1,8 @@
+numpy
+scipy
+tqdm
+click
+pillow
+dlib
+pymp-pypi
+git+https://github.com/classner/clustertools.git#egg=clustertools
