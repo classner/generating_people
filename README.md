@@ -56,7 +56,7 @@ validating/testing them with the command
 ```
 
 Pre-trained models can be downloaded from
-http://files.tuebingen.mpg.de/classner/gp .
+http://files.is.tuebingen.mpg.de/classner/gp .
 
 ## Generating people
 
