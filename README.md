@@ -1,4 +1,4 @@
-# Generating People code repository
+OA# Generating People code repository
 
 Requirements:
 
@@ -37,7 +37,7 @@ lightweight and no artifacts are stored there. To create a new model, just copy
 `template` (or link to the files in it) and change `options.py` in the new
 folder.
 
-To run a training/validation/testing use 
+To run training/validation/testing use 
 
 ```
 ./run.py [train,val,trainval,test,{sample}] experiments/config/modelname
@@ -55,6 +55,8 @@ validating/testing them with the command
 ./test_runner.py experiments/states/modelname [val, test]
 ```
 
+Pre-trained models can be downloaded from
+http://files.tuebingen.mpg.de/classner/gp .
 
 ## Generating people
 
