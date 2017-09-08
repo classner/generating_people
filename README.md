@@ -1,4 +1,4 @@
-OA# Generating People code repository
+# Generating People code repository
 
 Requirements:
 
