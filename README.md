@@ -8,6 +8,9 @@ Requirements:
 * Edit the file `config.py` to set up the paths.
 * `tensorflow` or `tensorflow-gpu` in a version >=v1.1.0 (I did not want to add
   it to the requirements to force installation of the GPU or non-GPU version).
+* Only if you want to run pose estimation and 3D fitting to integrate new data
+  into the dataset: set up the unite the people repository
+  (https://github.com/classner/up) and adjust its path in `config.py`.
 
 The rest of the requirements is then automatically installed when running:
 
