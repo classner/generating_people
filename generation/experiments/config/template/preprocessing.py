@@ -112,8 +112,8 @@ def prepare(load_dict, mode, config):
         labels = tf.cast(labels, tf.float32) * 2. / 255. - 1.
         labels = transform(labels, mode, config)
         labels.set_shape((config["crop_size"], config["crop_size"], 3))
-        if config.get("portray_additional_conditioning", False):
-            conditioning = load_dict["segcolors"]
+        if config.get("portray_additional_conditioning", None):
+            conditioning = load_dict[config['portray_additional_conditioning']]
             conditioning.set_shape((config["scale_size"],
                                     config["scale_size"], 3))
             conditioning = (tf.cast(conditioning, tf.float32) *

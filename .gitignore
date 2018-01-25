@@ -4,3 +4,5 @@ generation/experiments/states
 .#*
 .*_cache
 generation/experiments/features
+.DS_Store
+generation/results
